@@ -1,31 +1,31 @@
 // Steo 1 Create a namespace called Animal. Then, define two sub classes from the namespace, one called Cat and another 
 // called Dog.  
 
-var Animal = Animal || {};
-Animal.Cat = function() {
+//var Animal = Animal || {};
+//Animal.Cat = function() {
     
-}
-Animal.Dog = function() {
+//}
+//Animal.Dog = function() {
     
-}
+//}
 
 // Steo 2	Abandon the use of namespaces and start over. Now, create two classes, one called Cat 
 // and another called Dog. The Cat class should be created using literal notation and the Dog class 
 // should be created using constructor notation.
 
 
-var Cat = {
-    sex: "Female",
-    breed: "Main Coon",
-    color: "gray"
-};
+//var Cat = {
+//    sex: "Female",
+ //   breed: "Main Coon",
+//    color: "gray"
+//};
 
-function Dog() {
-    this.sex = "Male";
-    this.breed = "Dobermin";
-    this.color = "Black-Brown";
-};
-var myDog = new Dog();
+//function Dog() {
+//    this.sex = "Male";
+//    this.breed = "Dobermin";
+ //   this.color = "Black-Brown";
+//};
+//var myDog = new Dog();
 
 
 // Step 3 Create a new instance of the Cat class. Directly underneath, create a new instance
@@ -33,7 +33,7 @@ var myDog = new Dog();
 
 // cannot create an instance of an object literal (Cat)
 // object constructor
-var myDog2 = new Dog();
+//var myDog2 = new Dog();
 
 
 // Step 4	
@@ -320,6 +320,8 @@ var myDog2 = new Dog();
 //var book2 =  new Book("When Gadgets Betray Us", "Robert Vamosi", false);
 //var book3 =  new Book("The War that Ended Peace: The Road to 1914", "Margaret MacMillan", false);
 //var book4 =  new Book("The forgotton man", "amity schlades", true);
+//var book5 =  new Book("Micro", "Michael Crighton", true);
+
 
 //var books = Array(book1,book2, book3, book4);
 
